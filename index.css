@@ -1,0 +1,305 @@
+body {
+    font-family: "Annie Use Your Telescope";
+    background-color: #9678D3;
+
+}
+
+/*boton*/
+.btn-55,
+.btn-55 *,
+.btn-55 :after,
+.btn-55 :before,
+.btn-55:after,
+.btn-55:before {
+    border: 0 solid;
+    box-sizing: border-box;
+
+}
+
+.btn-55 {
+
+    /* Otros estilos */
+    background-image: url('./not.png');
+    background-size: cover;
+    /* O ajusta según tus necesidades */
+    background-position: center;
+    /* O ajusta según tus necesidades */
+    width: 50px;
+    /* Ajusta según el tamaño deseado */
+    height: 50px;
+    /* Ajusta según el tamaño deseado */
+
+
+
+}
+
+.btn-56 {
+    /* Otros estilos */
+    background-image: url('./ok.png');
+    background-size: cover;
+    /* O ajusta según tus necesidades */
+    background-position: center;
+    /* O ajusta según tus necesidades */
+
+    width: 50px;
+    /* Ajusta según el tamaño deseado */
+    height: 50px;
+    /* Ajusta según el tamaño deseado */
+}
+
+/*alerta compra realizada*/
+.alerta-compra {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    padding: 20px;
+    z-index: 9999;
+  }
+  .alerta-finalizar {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    padding: 20px;
+    z-index: 9999;
+  }
+  
+
+header {
+    background-color: #685BC7;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    box-shadow: 0 7px 8px -3px grey;
+    position: fixed;
+    width: 100%;
+    margin-top: -10px;
+    z-index: 99;
+}
+
+.container {
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    position: relative;
+}
+
+.header-section div {
+    position: relative;
+}
+
+.header-section p {
+    position: absolute;
+    top: -24px;
+    right: -8px;
+    background-color: 0 7px 8px -3px#685BC7;
+    padding: 1px 6px;
+    border-radius: 50%;
+    color: rgb(4, 4, 4);
+    font-weight: 700;
+    font-family: system-ui;
+    line-height: 18px;
+}
+
+.header-section h1 {
+    font-family: "Shadows Into Light", cursive;
+    ;
+    font-size: 20px;
+    font-weight: 50px;
+    background-color: 0 7px 8px -3px grey;
+    width: 100%;
+    /* O el ancho que desees para cada div */
+    height: 100%;
+    /* O el ancho que desees para cada div */
+}
+
+.slogan {
+    font-family: "Shadows Into Light", cursive;
+    ;
+    font-size: 80px;
+    font-weight: 300;
+    background-color: #fdfdfd;
+    width: 100%;
+    /* O el ancho que desees para cada div */
+    height: 100%;
+    /* O el ancho que desees para cada div */
+}
+
+.cart {
+    width: 39px;
+    height: 38px;
+    background-color: #fdfdff;
+    border-radius: 80%;
+
+}
+
+.cart-products {
+    position: absolute !important;
+    top: 82px;
+    right: -18px;
+    background-color: #ffffff;
+    padding: 0 18px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    display: none;
+    min-width: 290px;
+    border-radius: 5%;
+    border-style: outset;
+    border-color: #5843f8;
+    background-image: url(./fondo3.jpg);
+    opacity: 90%;
+}
+
+.cart:hover {
+    margin-bottom: 16px;
+    transition-duration: .5s;
+}
+
+/*end header*/
+.products {
+    padding-top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #9678D3;
+}
+
+.carts {
+    max-width: 250px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    padding-bottom: 34px;
+    margin-bottom: 40px;
+}
+
+.carts img {
+    width: 100%;
+    /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 100;
+    /* Mantén la proporción de aspecto */
+    max-width: 100%;
+    /* Asegúrate de que la imagen no supere el ancho del contenedor */
+    max-height: 200px;
+    /* Establece una altura máxima para las imágenes, ajusta según sea necesario */
+}
+
+
+.carts p {
+    font-family: system-ui;
+    font-weight: bolder;
+    font-weight: 500;
+    padding: 0 20px;
+    margin-bottom: 24px;
+}
+
+.carts div p {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background-color: rgb(161, 0, 235);
+    color: #ffffff;
+    padding: 2px 7px 4px 21px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+.carts div {
+    position: relative;
+}
+
+.carts a {
+    font-family: system-ui;
+    text-decoration: none;
+    background: #685BC7;
+    padding: 9px 23px;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.carts a:hover {
+    background: #fff;
+    color: rgb(0, 0, 0);
+    border: solid 2px #685BC7;
+    transition-duration: .3s;
+}
+
+/*float cart*/
+.cart-products .item img {
+    width: 115px;
+}
+
+.cart-products .item {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px #685BC7;
+}
+
+.cart-products .item .item-content {
+    margin: 0 19px;
+    width: 201px;
+}
+
+.cart-products .item .item-content h5 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+
+.cart-products .item .item-content h6 {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+
+.cart-products .item span {
+    background-color: red;
+    padding: 0px 5px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: system-ui;
+    cursor: pointer;
+}
+
+.cart-products h3 {
+    margin-bottom: 0;
+}
+
+.cart-products .item .item-content h5.cart-price {
+    font-weight: 700;
+}
+
+/*stye to btn close*/
+p.close-btn {
+    top: -4px;
+    right: 6px;
+    cursor: pointer;
+    color: #000;
+}
+
+p.author {
+    display: flex;
+    justify-content: center;
+    FONT-VARIANT: JIS04;
+    margin-top: 3%;
+    gap: 7px;
+}
+
+p.author a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+}
